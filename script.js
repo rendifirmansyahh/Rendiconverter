@@ -2,7 +2,7 @@
 document.getElementById('passwordForm').addEventListener('submit', function(e) {
   e.preventDefault();
 
-  const validKeywords = ['123456']; // Kata kunci yang valid
+  const validKeywords = ['1111']; // Kata kunci yang valid
   const passwordInput = document.getElementById('passwordInput').value.trim().toLowerCase(); // Kata kunci yang dimasukkan
   const errorMessage = document.getElementById('errorMessage');
 
